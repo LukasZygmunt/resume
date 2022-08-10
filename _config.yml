@@ -9,10 +9,10 @@ version: 2
 name: Lukas Zygmunt
 title: Anwendungsentwickler
 email: l.z.lukaszygmunt@gmail.com
-# email_title: Email (Email title override)
+email_title: mail
 phone: +49 17676850935
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://lukaszygmunt.github.io/resume/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -26,7 +26,7 @@ github_username: LukasZygmunt
 facebook_username: zygmuntlukasz
 #flickr_username: jekyll
 instagram_username: jupsi84
-linkedin_username: Lukas_Zygmunt
+linkedin_username: Lukasz-Zygmunt
 xing_username: Lukas_Zygmunt
 #pinterest_username: jekyll
 #youtube_username: jekyll
@@ -48,10 +48,17 @@ xing_username: Lukas_Zygmunt
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: images/foto.jpg
+about_title: Über mich
+about_profile_image: images/foto2black2.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hallo, ich heiße Lukas Zygmunt und mache eine Umschulung zum Fachinformatiker Anwendungsentwicklung. Ich bin in 2018 nach Deutschland umgezogen und erst Deutch gelernt und gearbeitet.
+  Hallo, mein Name ist Lukas und ich mache eine Umschulung als Fachinformatiker für Anwendungsentwicklung. Ich bin in 2018 nach Deutschland umgezogen und hier in Bayern meine neue Heimat gefunden.
+  Am Anfang habe ich kurz Deutschsprache gelernt und hier erste Arbeit gefunden. Nach drei Jahre, als meine Sprache besser geworden ist, habe ich mich entschieden, nochmal auf die Schulbank zu setzen und beruflich weiterzuentwickeln. So habe ich mich innerhalb drei Jahren zweite mal wiedergefunden. Meine Träume von der Kindheit, die ich verloren habe, waren wieder da und ich hatte diesmal mehr Kraft, Mut und Selbstbewusstsein den Weg zu wählen.<br>
+  Meine Vorkenntnisse aus meiner langjährigen Berufserfahrung, als auch meine bereits abgeschlossenes Studium mit geisteswissenschaftliche Fähigkeiten ergänzen meine ingenieurwissenschaftliche Berufsausbildung und machen meine Qualifikationen <b>einzigartig.
+
+  
+  
+  
+  
 
 
   
@@ -64,42 +71,126 @@ about_content: | # this will include new lines to allow paragraphs
 #    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content: 
+      - layout: left
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Software
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: mywebsite
+        additional_links:
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+
+          <b>**Python, Java, C++, SQL, Linux, Html, CSS, CorelDraw, Photoshop, Microsoft Office, G-Code, Git**
+      - layout: left
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Soft skills
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: mywebsite
+        additional_links:
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+
+          <b>**Ehrgeiz, Lernbereitschaft, Analytisches Denken, Teamfähigkeit, Flexibilität, Kreativität, Problemlösungsfähigkeit** 
+
+  - title: Projekte # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        #border: weak  # Value of `weak` will display a weak border below this item. # Any  
                       # other value (or no value) means no border will be displayed
-        title: Meine Webseite
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: mywebsite
+        title: Meine persönliche Webseite
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: mywebsite
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Ich habe mich inspiriert von James Grand Modern-Resume-Design by GitHub und ich habe der Projekt geendert und angepasst.
-        description: | # this will include new lines to allow paragraphs
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #quote: >
           
-  - title: Experience
+        description: | # this will include new lines to allow paragraphs
+
+          Ich habe mich inspiriert von James Grand Modern-Resume-Design by GitHub und ich habe der Projekt geendert und angepasst.
+  - title: Ausbildung
+    layout: list
+    content:
+      - layout: top-left
+        title: Fachinformatiker Anwendungsentwicklung mit IHK Abschluss 
+        sub_title: Didact / Bayerische Akademie für Außenwirtschaft e. V., München
+        caption: 1/2022 - 11/2023
+                  
+        description: | # this will include new lines to allow paragraphs
+
+          Projektmanagement, SQL, Python, C++, Java, Linux, MS Office
+
+      - layout: top-left
+        title: CNC Operator CNC Programmierer (Schulung) 
+        sub_title: Zentrum für Schulung und CNC-Technologie Numerika Breslau, Polen
+        caption: 1/2018 und 3/2018
+                  
+        description: | # this will include new lines to allow paragraphs
+
+          CNC-Operator (TÜV SÜD Zertifikat)
+
+          CAD CAM Programmierer (TÜV SÜD Zertifikat)
+
+          Siemens (Sinumerik 840) und Fanuc Steuerung
+     
+      - layout: top-left
+        title: Politikwissenschaft mit Masterabschluss 
+        sub_title: Maria Curie-Skłodowska Universität in Lublin, Polen
+        caption: 10/2006 - 10/2011
+
+        description: | # this will include new lines to allow paragraphs      
+
+      - layout: top-left
+        title: DTP Grafikdesign (Schulung) 
+        sub_title: Zeto Lublin, Polen
+        caption: 10/2010
+
+        description: | # this will include new lines to allow paragraphs
+
+          DTP, Grafikdesign
+
+  - title: Erfahrung
     layout: list
     content:
       - layout: links
-        title: Stm Stahl Vertriebs GmbH/München, Deutschland
-        sub_title: Produktionsmitarbeiter
+        title: Produktionsmitarbeiter
+        sub_title: STM Stahl Vertriebs GmbH Gräfelfing, Deutschland
         caption: 01/2020 – 07/2021
                   
         description: | # this will include new lines to allow paragraphs
           Vorbereitung, Organisation und Unterstützung der Produktion
           
           Machinenbedinung CNC-Sägen
+
+          CNC-Säge: Behringer, Friggi, Petra
           
       - layout: links
-        title: Hendriks Radlogistik GmbH/Neufahrn bei Freising, Deutschland
-        sub_title: Qualitätsmitarbeiter
+        title: Qualitätsmitarbeiter
+        sub_title: Hendriks Radlogistik GmbH Neufahrn bei Freising, Deutschland
         caption: 06/2018 – 10/2019
                   
         description: | # this will include new lines to allow paragraphs
@@ -110,11 +201,11 @@ content:
           Gabelstapler-Betrieb
       
       - layout: links
-        title: Umzug nach Deutschland      
+        title: Deutschkurs      
         caption: 03/2018 – 06/2018
                   
         description: | # this will include new lines to allow paragraphs
-        
+          
 
       - layout: links
         title: Dmk Studio Sp.j./Lublin, Polen
@@ -122,11 +213,14 @@ content:
         caption: 08/2012 - 03/2018
                   
         description: | # this will include new lines to allow paragraphs
-          Digitaldruck
-
-          Prüfung und Vorbereitung von Dateien, Graphikdesign
+          Digitaldruck und Grafikdesign
 
           Kundendienst und Kundenberatung
+
+          Digitaldruck: Konica Minolta C6000, Konica Minolta C1085, Mutoh ValueJet 1624, Xerox Docu Color 7002 
+
+          Software: Windows, MS Office, Corel Draw, Photoshop, Adobe Acrobat, Fiery, Agfa Apogee, Onyx RipCenter, Studio
+
 
       - layout: links
         title: Centerprint/Warschau, Polen
@@ -137,13 +231,9 @@ content:
           Verhandlungen, Service und Kundengewinnung
                     
           Digitaldruck
+
+          Software: Ms Office, Widows, Fiery
           
-      - layout: links
-        title: Erstellen der Masterarbeit und berufliche Orientierung      
-        caption: 10/2010 - 04/2012
-                  
-        description: | # this will include new lines to allow paragraphs
-                         
           
       - layout: links
         title: Dmk Studio Sp.j./Lublin, Polen
@@ -155,29 +245,9 @@ content:
 
           Kundendienst und Kundenberatung
 
-          Prüfung und Vorbereitung von Dateien, Graphikdesign
-      - layout: links
-        title: Tankstelle Konkret/Zalesie, Polen
-        sub_title: Verkäufer
-        caption: 06/2004 - 12/2004
-                  
-        description: | # this will include new lines to allow paragraphs
-          
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Didact/München
-        sub_title: Fachinformatiker Anwendungsentwicklung (2 Jahre)
-        caption: 1/2022 - jetzt
-                  
-        description: | # this will include new lines to allow paragraphs
-              
-      - layout: top-right
-        title: Maria Curie-Skłodowska Universität in Lublin, Polen
-        sub_title: Politikwissenschaft mit Masterabschluss
-        caption: 10/2006 - 10/2011
-        
+          Prüfung und Vorbereitung von Dateien
+
+          Software: Windows, MS Office, Corel Draw, Adobe Acrobat, Agfa Apogee, Onyx RipCenter, Studio     
           
   - title: Wenn ich nicht am Computer bin ...
     layout: text
