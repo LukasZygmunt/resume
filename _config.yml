@@ -23,7 +23,7 @@ darkmode: true
 github_username: LukasZygmunt 
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
-facebook_username: zygmuntlukasz
+#facebook_username: zygmuntlukasz
 #flickr_username: jekyll
 instagram_username: jupsi84
 linkedin_username: Lukasz-Zygmunt
@@ -33,13 +33,13 @@ xing_username: Lukas_Zygmunt
 #orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+additional_links:
+- title: Link name
+  icon: circle-down https://drive.google.com/file/d/1bUqBbjVrBiwSyCiVyY8Oox1TL3jHjtGJ/view?usp=sharing
+  url: https://drive.google.com/file/d/1zxCJToFguBKgQFbxkTWVQUHkvgEFPp6b/view?usp=sharing
+#- title: another link
+#  icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -91,7 +91,7 @@ content:
           
         description: | # this will include new lines to allow paragraphs
 
-          <b>**Python, Java, C++, SQL, Linux, Html, CSS, CorelDraw, Photoshop, Microsoft Office, G-Code, Git**
+          <b>*Python*, *Java*, *C++*, *SQL*, *Linux*, *Html*, *CSS*, *CorelDraw*, *Photoshop*, *Microsoft Office*, *G-Code*, *Git*
       - layout: left
         #border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -109,7 +109,7 @@ content:
           
         description: | # this will include new lines to allow paragraphs
 
-          <b>**Ehrgeiz, Lernbereitschaft, Analytisches Denken, Teamfähigkeit, Flexibilität, Kreativität, Problemlösungsfähigkeit** 
+          <b>*Ehrgeiz*, *Lernbereitschaft*, *Analytisches Denken*, *Teamfähigkeit*, *Flexibilität*, *Kreativität*, *Problemlösungsfähigkeit* 
 
   - title: Projekte # Title for the section
     layout: list # Type of content section (list/text)
@@ -253,10 +253,9 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Ich bin ganz aktive Person und treibe gerne viel Sport. Am liebsten fahre ich Fahrrad oder mache ich Bergwanderung. Wenn ich kein Sport mache, genieße ich gerne meine Freizeit
+      mit Freunden oder mit einem Buch.
       
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      
 
 # Footer
 footer_show_references: true
@@ -264,7 +263,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
